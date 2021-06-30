@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org" >
+  <head>
+    <meta charset="utf-8">
+    <title>Attention Candy Crush</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="score-board">
+      <h3>score</h3>
+      <h1 id="score"></h1>
+    </div>
+    <div class="grid"></div>
+    <script>
+      var user = "[[${user2}]]";
+    </script>
+    <script src="/js/bundle.js"></script>
+  </body>
+</html>
